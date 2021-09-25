@@ -1,3 +1,3 @@
 # Laptrinhthietbinhung
-bt1
-bt2
+#bt1
+#bt2
