@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"nhietdo\startup_stm32f401xe.o"
+"nhietdo\main.o"
+"nhietdo\stm32f4xx_it.o"
+"nhietdo\stm32f4xx_hal_msp.o"
+"nhietdo\stm32f4xx_hal_adc.o"
+"nhietdo\stm32f4xx_hal_adc_ex.o"
+"nhietdo\stm32f4xx_ll_adc.o"
+"nhietdo\stm32f4xx_hal_rcc.o"
+"nhietdo\stm32f4xx_hal_rcc_ex.o"
+"nhietdo\stm32f4xx_hal_flash.o"
+"nhietdo\stm32f4xx_hal_flash_ex.o"
+"nhietdo\stm32f4xx_hal_flash_ramfunc.o"
+"nhietdo\stm32f4xx_hal_gpio.o"
+"nhietdo\stm32f4xx_hal_dma_ex.o"
+"nhietdo\stm32f4xx_hal_dma.o"
+"nhietdo\stm32f4xx_hal_pwr.o"
+"nhietdo\stm32f4xx_hal_pwr_ex.o"
+"nhietdo\stm32f4xx_hal_cortex.o"
+"nhietdo\stm32f4xx_hal.o"
+"nhietdo\stm32f4xx_hal_exti.o"
+"nhietdo\stm32f4xx_hal_tim.o"
+"nhietdo\stm32f4xx_hal_tim_ex.o"
+"nhietdo\system_stm32f4xx.o"
+--strict --scatter "NhietDo\NhietDo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NhietDo.map" -o NhietDo\NhietDo.axf

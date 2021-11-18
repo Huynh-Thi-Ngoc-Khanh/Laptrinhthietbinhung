@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"ngatngoaistm32\startup_stm32f401xe.o"
+"ngatngoaistm32\main.o"
+"ngatngoaistm32\stm32f4xx_it.o"
+"ngatngoaistm32\stm32f4xx_hal_msp.o"
+"ngatngoaistm32\stm32f4xx_hal_tim.o"
+"ngatngoaistm32\stm32f4xx_hal_tim_ex.o"
+"ngatngoaistm32\stm32f4xx_hal_rcc.o"
+"ngatngoaistm32\stm32f4xx_hal_rcc_ex.o"
+"ngatngoaistm32\stm32f4xx_hal_flash.o"
+"ngatngoaistm32\stm32f4xx_hal_flash_ex.o"
+"ngatngoaistm32\stm32f4xx_hal_flash_ramfunc.o"
+"ngatngoaistm32\stm32f4xx_hal_gpio.o"
+"ngatngoaistm32\stm32f4xx_hal_dma_ex.o"
+"ngatngoaistm32\stm32f4xx_hal_dma.o"
+"ngatngoaistm32\stm32f4xx_hal_pwr.o"
+"ngatngoaistm32\stm32f4xx_hal_pwr_ex.o"
+"ngatngoaistm32\stm32f4xx_hal_cortex.o"
+"ngatngoaistm32\stm32f4xx_hal.o"
+"ngatngoaistm32\stm32f4xx_hal_exti.o"
+"ngatngoaistm32\system_stm32f4xx.o"
+--strict --scatter "NgatNgoaiSTM32\NgatNgoaiSTM32.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NgatNgoaiSTM32.map" -o NgatNgoaiSTM32\NgatNgoaiSTM32.axf
